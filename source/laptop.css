@@ -8,7 +8,7 @@
 
 header {
     display: grid;
-    grid-template-columns: 50% 20% 30%;
+    grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     /* border-bottom: 0.1rem solid #adb5bd; */
     padding-top: 2.2rem;
@@ -33,8 +33,8 @@ header {
     font-size: 1rem;
     grid-row-start: 2;
     display: inline-grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
 }
 
 .contact-item {
@@ -43,13 +43,13 @@ header {
 
 .portrait {
     text-align: right;
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
 .author-img {
-    width: 5rem;
+    width: 7rem;
     height: 7rem;
 }
 
